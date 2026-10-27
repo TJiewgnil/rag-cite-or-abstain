@@ -1,0 +1,298 @@
+{
+  "fa_penalty": 1.0,
+  "features": [
+    "grounding_mean",
+    "grounding_max",
+    "grounding_qa_mean",
+    "grounding_qa_max",
+    "quote_match",
+    "n_claims",
+    "has_answer",
+    "quote_match_gen",
+    "ans_len",
+    "ret_top",
+    "ret_gap",
+    "ret_mean"
+  ],
+  "by_method_variant": {
+    "BM25|cite": {
+      "util_fa0": 0.7079158290932485,
+      "util_fa": 0.6279158290932484,
+      "util_fa_ci": [
+        0.563,
+        0.701
+      ],
+      "far": 0.16,
+      "far_ci": [
+        0.103,
+        0.216
+      ],
+      "cov": 0.4633333333333333,
+      "token_f1": 0.7510847715476046,
+      "gate_qa_util": 0.6356936068710262,
+      "gate_qa_far": 0.14666666666666667,
+      "gate_qa_cov": 0.45,
+      "gate_multi_util": 0.6362645502645502,
+      "gate_multi_ci": [
+        0.579,
+        0.694
+      ],
+      "aurc_qa": 0.3690308764583672,
+      "aurc_multi": 0.3033727372199284,
+      "aurc_qa_legacy": 0.1709843060923768,
+      "aurc_multi_legacy": 0.14056270157856685,
+      "gate_qa_cv_util": 0.6256936068710263,
+      "gate_qa_cv_far": 0.15333333333333332,
+      "gate_multi_cv_util": 0.6068884818884818,
+      "gate_multi_cv_far": 0.12
+    },
+    "BM25|explicit": {
+      "util_fa0": 0.6352652643757957,
+      "util_fa": 0.5719319310424623,
+      "util_fa_ci": [
+        0.508,
+        0.637
+      ],
+      "far": 0.12666666666666668,
+      "far_ci": [
+        0.075,
+        0.179
+      ],
+      "cov": 0.42,
+      "token_f1": 0.5568184982498942,
+      "gate_qa_util": 0.5815245236350549,
+      "gate_qa_far": 0.11333333333333333,
+      "gate_qa_cov": 0.4033333333333333,
+      "gate_multi_util": 0.5719319310424623,
+      "gate_multi_ci": [
+        0.508,
+        0.637
+      ],
+      "aurc_qa": 0.5567573602651926,
+      "aurc_multi": 0.5742509583493036,
+      "aurc_qa_legacy": 0.2338380913113809,
+      "aurc_multi_legacy": 0.2411854025067075,
+      "gate_qa_cv_util": 0.5781911903017215,
+      "gate_qa_cv_far": 0.11333333333333333,
+      "gate_multi_cv_util": 0.5205281866387181,
+      "gate_multi_cv_far": 0.12666666666666668
+    },
+    "BM25|naive": {
+      "util_fa0": 0.5601649893611561,
+      "util_fa": 0.45016498936115634,
+      "util_fa_ci": [
+        0.38,
+        0.523
+      ],
+      "far": 0.22,
+      "far_ci": [
+        0.154,
+        0.286
+      ],
+      "cov": 0.49,
+      "token_f1": 0.4478026035819893,
+      "gate_qa_util": 0.5129468251838587,
+      "gate_qa_far": 0.006666666666666667,
+      "gate_qa_cov": 0.06666666666666667,
+      "gate_multi_util": 0.5123330403160492,
+      "gate_multi_ci": [
+        0.458,
+        0.57
+      ],
+      "aurc_qa": 0.6966911759496278,
+      "aurc_multi": 0.7040371833684597,
+      "aurc_qa_legacy": 0.3413786762153176,
+      "aurc_multi_legacy": 0.3449782198505453,
+      "gate_qa_cv_util": 0.5094471222723911,
+      "gate_qa_cv_far": 0.006666666666666667,
+      "gate_multi_cv_util": 0.4807968831181273,
+      "gate_multi_cv_far": 0.06666666666666667
+    },
+    "Dense|cite": {
+      "util_fa0": 0.7122879232653426,
+      "util_fa": 0.6056212565986759,
+      "util_fa_ci": [
+        0.532,
+        0.675
+      ],
+      "far": 0.21333333333333335,
+      "far_ci": [
+        0.152,
+        0.281
+      ],
+      "cov": 0.5166666666666667,
+      "token_f1": 0.7779380242244132,
+      "gate_qa_util": 0.6071821031595225,
+      "gate_qa_far": 0.18666666666666668,
+      "gate_qa_cov": 0.4666666666666667,
+      "gate_multi_util": 0.6201658189658189,
+      "gate_multi_ci": [
+        0.554,
+        0.684
+      ],
+      "aurc_qa": 0.3809482763029435,
+      "aurc_multi": 0.40146694640258196,
+      "aurc_qa_legacy": 0.1968232760898542,
+      "aurc_multi_legacy": 0.20742458897466737,
+      "gate_qa_cv_util": 0.5659863359637552,
+      "gate_qa_cv_far": 0.17333333333333334,
+      "gate_multi_cv_util": 0.6243119066119066,
+      "gate_multi_cv_far": 0.06
+    },
+    "Dense|explicit": {
+      "util_fa0": 0.6498503622834375,
+      "util_fa": 0.583183695616771,
+      "util_fa_ci": [
+        0.512,
+        0.647
+      ],
+      "far": 0.13333333333333333,
+      "far_ci": [
+        0.081,
+        0.188
+      ],
+      "cov": 0.4533333333333333,
+      "token_f1": 0.559957833491649,
+      "gate_qa_util": 0.5898503622834377,
+      "gate_qa_far": 0.12666666666666668,
+      "gate_qa_cov": 0.45,
+      "gate_multi_util": 0.6078157652441966,
+      "gate_multi_ci": [
+        0.55,
+        0.663
+      ],
+      "aurc_qa": 0.5696326402305574,
+      "aurc_multi": 0.5150096817474186,
+      "aurc_qa_legacy": 0.258233463571186,
+      "aurc_multi_legacy": 0.23347105572549642,
+      "gate_qa_cv_util": 0.563924047313005,
+      "gate_qa_cv_far": 0.12,
+      "gate_multi_cv_util": 0.5963278468445135,
+      "gate_multi_cv_far": 0.06
+    },
+    "Dense|naive": {
+      "util_fa0": 0.5664006344874469,
+      "util_fa": 0.4497339678207802,
+      "util_fa_ci": [
+        0.378,
+        0.518
+      ],
+      "far": 0.23333333333333334,
+      "far_ci": [
+        0.168,
+        0.301
+      ],
+      "cov": 0.55,
+      "token_f1": 0.4224630026633381,
+      "gate_qa_util": 0.511782355816227,
+      "gate_qa_far": 0.013333333333333334,
+      "gate_qa_cov": 0.07,
+      "gate_multi_util": 0.5256945355181899,
+      "gate_multi_ci": [
+        0.463,
+        0.588
+      ],
+      "aurc_qa": 0.6765810666718469,
+      "aurc_multi": 0.6692814886323255,
+      "aurc_qa_legacy": 0.3721195866695157,
+      "aurc_multi_legacy": 0.368104818747779,
+      "gate_qa_cv_util": 0.4799722548061258,
+      "gate_qa_cv_far": 0.05333333333333334,
+      "gate_multi_cv_util": 0.526426293039421,
+      "gate_multi_cv_far": 0.04666666666666667
+    },
+    "Hybrid|cite": {
+      "util_fa0": 0.7144805332000578,
+      "util_fa": 0.6044805332000578,
+      "util_fa_ci": [
+        0.528,
+        0.677
+      ],
+      "far": 0.22,
+      "far_ci": [
+        0.158,
+        0.285
+      ],
+      "cov": 0.5366666666666666,
+      "token_f1": 0.7605012496876354,
+      "gate_qa_util": 0.6111471998667246,
+      "gate_qa_far": 0.21333333333333335,
+      "gate_qa_cov": 0.5333333333333333,
+      "gate_multi_util": 0.6070138665333912,
+      "gate_multi_ci": [
+        0.533,
+        0.681
+      ],
+      "aurc_qa": 0.37847052589715646,
+      "aurc_multi": 0.3967526154426717,
+      "aurc_qa_legacy": 0.20311251556480725,
+      "aurc_multi_legacy": 0.21292390362090047,
+      "gate_qa_cv_util": 0.6011471998667245,
+      "gate_qa_cv_far": 0.22,
+      "gate_multi_cv_util": 0.5721903937099184,
+      "gate_multi_cv_far": 0.18666666666666668
+    },
+    "Hybrid|explicit": {
+      "util_fa0": 0.6453102611755862,
+      "util_fa": 0.561976927842253,
+      "util_fa_ci": [
+        0.498,
+        0.628
+      ],
+      "far": 0.16666666666666666,
+      "far_ci": [
+        0.109,
+        0.226
+      ],
+      "cov": 0.4866666666666667,
+      "token_f1": 0.5668849450634369,
+      "gate_qa_util": 0.5825738494391745,
+      "gate_qa_far": 0.08666666666666667,
+      "gate_qa_cov": 0.34,
+      "gate_multi_util": 0.5904519528172778,
+      "gate_multi_ci": [
+        0.53,
+        0.65
+      ],
+      "aurc_qa": 0.5687208701740099,
+      "aurc_multi": 0.53088984341497,
+      "aurc_qa_legacy": 0.27677749015135145,
+      "aurc_multi_legacy": 0.2583663904619521,
+      "gate_qa_cv_util": 0.5621647585300836,
+      "gate_qa_cv_far": 0.12,
+      "gate_multi_cv_util": 0.5717761286414538,
+      "gate_multi_cv_far": 0.10666666666666667
+    },
+    "Hybrid|naive": {
+      "util_fa0": 0.5692678244354415,
+      "util_fa": 0.4492678244354418,
+      "util_fa_ci": [
+        0.381,
+        0.527
+      ],
+      "far": 0.24,
+      "far_ci": [
+        0.168,
+        0.308
+      ],
+      "cov": 0.5566666666666666,
+      "token_f1": 0.43343776588269023,
+      "gate_qa_util": 0.5162389954728664,
+      "gate_qa_far": 0.0,
+      "gate_qa_cov": 0.04,
+      "gate_multi_util": 0.5163532721948834,
+      "gate_multi_ci": [
+        0.451,
+        0.574
+      ],
+      "aurc_qa": 0.6510487965872281,
+      "aurc_multi": 0.6899865091978428,
+      "aurc_qa_legacy": 0.362417163433557,
+      "aurc_multi_legacy": 0.38409249012013247,
+      "gate_qa_cv_util": 0.47443006627570206,
+      "gate_qa_cv_far": 0.06,
+      "gate_multi_cv_util": 0.5192104150520261,
+      "gate_multi_cv_far": 0.05333333333333334
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "BM25|cite": {
+    "n_false_answers": 24,
+    "sources": {
+      "designated@rank1": 17,
+      "designated": 22,
+      "other_passage@rank5": 1,
+      "other_passage": 2,
+      "designated@rank3": 1,
+      "designated@rank2": 4,
+      "other_passage@rank1": 1
+    },
+    "far_designated_hit": 0.20754716981132076,
+    "n_hit": 106,
+    "far_designated_miss": 0.045454545454545456,
+    "n_miss": 44
+  },
+  "BM25|explicit": {
+    "n_false_answers": 19,
+    "sources": {
+      "designated@rank1": 13,
+      "designated": 18,
+      "designated@rank4": 1,
+      "designated@rank3": 1,
+      "designated@rank2": 3,
+      "other_passage@rank2": 1,
+      "other_passage": 1
+    },
+    "far_designated_hit": 0.16981132075471697,
+    "n_hit": 106,
+    "far_designated_miss": 0.022727272727272728,
+    "n_miss": 44
+  },
+  "BM25|naive": {
+    "n_false_answers": 33,
+    "sources": {
+      "designated@rank1": 23,
+      "designated": 29,
+      "other_passage@rank1": 3,
+      "other_passage": 4,
+      "designated@rank4": 1,
+      "designated@rank3": 1,
+      "designated@rank2": 4,
+      "other_passage@rank4": 1
+    },
+    "far_designated_hit": 0.2830188679245283,
+    "n_hit": 106,
+    "far_designated_miss": 0.06818181818181818,
+    "n_miss": 44
+  },
+  "Dense|cite": {
+    "n_false_answers": 32,
+    "sources": {
+      "designated@rank1": 18,
+      "designated": 25,
+      "other_passage@rank2": 3,
+      "other_passage": 7,
+      "designated@rank2": 2,
+      "other_passage@rank1": 2,
+      "designated@rank3": 3,
+      "other_passage@rank4": 2,
+      "designated@rank5": 1,
+      "designated@rank4": 1
+    },
+    "far_designated_hit": 0.26851851851851855,
+    "n_hit": 108,
+    "far_designated_miss": 0.07142857142857142,
+    "n_miss": 42
+  },
+  "Dense|explicit": {
+    "n_false_answers": 20,
+    "sources": {
+      "designated@rank1": 12,
+      "designated": 15,
+      "other_passage@rank3": 1,
+      "other_passage": 5,
+      "other_passage@rank1": 2,
+      "designated@rank3": 2,
+      "other_passage@rank2": 1,
+      "other_passage@rank5": 1,
+      "designated@rank2": 1
+    },
+    "far_designated_hit": 0.16666666666666666,
+    "n_hit": 108,
+    "far_designated_miss": 0.047619047619047616,
+    "n_miss": 42
+  },
+  "Dense|naive": {
+    "n_false_answers": 35,
+    "sources": {
+      "designated@rank1": 20,
+      "designated": 25,
+      "other_passage@rank3": 2,
+      "other_passage": 10,
+      "other_passage@rank2": 4,
+      "other_passage@rank1": 2,
+      "designated@rank3": 3,
+      "other_passage@rank4": 1,
+      "other_passage@rank5": 1,
+      "designated@rank5": 1,
+      "designated@rank2": 1
+    },
+    "far_designated_hit": 0.2777777777777778,
+    "n_hit": 108,
+    "far_designated_miss": 0.11904761904761904,
+    "n_miss": 42
+  },
+  "Hybrid|cite": {
+    "n_false_answers": 33,
+    "sources": {
+      "designated@rank1": 17,
+      "designated": 25,
+      "other_passage@rank3": 2,
+      "other_passage": 8,
+      "designated@rank2": 6,
+      "other_passage@rank2": 3,
+      "other_passage@rank4": 2,
+      "designated@rank3": 1,
+      "designated@rank5": 1,
+      "other_passage@rank1": 1
+    },
+    "far_designated_hit": 0.22580645161290322,
+    "n_hit": 124,
+    "far_designated_miss": 0.19230769230769232,
+    "n_miss": 26
+  },
+  "Hybrid|explicit": {
+    "n_false_answers": 25,
+    "sources": {
+      "designated@rank1": 13,
+      "designated": 21,
+      "designated@rank2": 6,
+      "other_passage@rank2": 2,
+      "other_passage": 4,
+      "other_passage@rank4": 1,
+      "designated@rank5": 1,
+      "other_passage@rank3": 1,
+      "designated@rank3": 1
+    },
+    "far_designated_hit": 0.1935483870967742,
+    "n_hit": 124,
+    "far_designated_miss": 0.038461538461538464,
+    "n_miss": 26
+  },
+  "Hybrid|naive": {
+    "n_false_answers": 36,
+    "sources": {
+      "designated@rank1": 21,
+      "designated": 31,
+      "other_passage@rank3": 1,
+      "other_passage": 5,
+      "designated@rank2": 7,
+      "other_passage@rank2": 2,
+      "designated@rank4": 1,
+      "other_passage@rank4": 1,
+      "designated@rank5": 1,
+      "designated@rank3": 1,
+      "other_passage@rank1": 1
+    },
+    "far_designated_hit": 0.2661290322580645,
+    "n_hit": 124,
+    "far_designated_miss": 0.11538461538461539,
+    "n_miss": 26
+  }
+}

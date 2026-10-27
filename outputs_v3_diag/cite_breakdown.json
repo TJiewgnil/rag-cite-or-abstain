@@ -1,0 +1,92 @@
+{
+  "BM25": {
+    "answerable": {
+      "answered": 2,
+      "model_declined": 4,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 6
+    },
+    "unanswerable": {
+      "answered": 1,
+      "model_declined": 4,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 5
+    },
+    "all_outputs": {
+      "coverage": 0.3333333333333333,
+      "far": 0.2
+    },
+    "valid_decisions_only": {
+      "coverage": 0.3333333333333333,
+      "far": 0.2,
+      "n_answerable": 6,
+      "n_unanswerable": 5
+    }
+  },
+  "Dense": {
+    "answerable": {
+      "answered": 4,
+      "model_declined": 1,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 5
+    },
+    "unanswerable": {
+      "answered": 2,
+      "model_declined": 4,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 6
+    },
+    "all_outputs": {
+      "coverage": 0.8,
+      "far": 0.3333333333333333
+    },
+    "valid_decisions_only": {
+      "coverage": 0.8,
+      "far": 0.3333333333333333,
+      "n_answerable": 5,
+      "n_unanswerable": 6
+    }
+  },
+  "Hybrid": {
+    "answerable": {
+      "answered": 2,
+      "model_declined": 1,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 3
+    },
+    "unanswerable": {
+      "answered": 1,
+      "model_declined": 4,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 5
+    },
+    "all_outputs": {
+      "coverage": 0.6666666666666666,
+      "far": 0.2
+    },
+    "valid_decisions_only": {
+      "coverage": 0.6666666666666666,
+      "far": 0.2,
+      "n_answerable": 3,
+      "n_unanswerable": 5
+    }
+  },
+  "finish_reason": {
+    "STOP": 30
+  },
+  "parse_status": {
+    "ok": 30
+  }
+}

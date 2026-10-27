@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+
+# Built by 01_build_data.py (the 300-question set is kept)
+data/*
+!data/queries.jsonl
+
+# Fresh runs and generated figures
+outputs/
+figures/
+my_rigor_checks.txt

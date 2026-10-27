@@ -1,0 +1,11 @@
+# Python >= 3.10. Install PyTorch first (CPU or CUDA build, see pytorch.org), then:
+#   pip install -r requirements.txt
+numpy>=1.24
+scikit-learn>=1.3           # selective gate (script 07)
+matplotlib>=3.7             # figures (scripts 05, 08, 13)
+rank_bm25>=0.2.2            # sparse (BM25) retrieval
+sentence-transformers>=2.2  # dense encoder + NLI cross-encoder
+faiss-cpu>=1.7              # dense index (flat; no GPU needed)
+datasets>=2.14              # loads SQuAD v2 from Hugging Face
+transformers>=4.35
+google-cloud-aiplatform>=1.38  # Vertex AI Gemini generation (only script 03 and check_gcp.py)

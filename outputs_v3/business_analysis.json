@@ -1,0 +1,147 @@
+{
+  "note": "business utility: CA=+f1, FA=-beta, FR=-gamma, CAbst=0",
+  "item1": {
+    "BM25": {
+      "cite": {
+        "car": 0.7666666666666667,
+        "far": 0.16
+      },
+      "cascade": {
+        "car": 0.78,
+        "far": 0.18666666666666668
+      },
+      "smart_at_mid": {
+        "car": 0.773,
+        "far": 0.18,
+        "linear_far": 0.173,
+        "better": false
+      }
+    },
+    "Dense": {
+      "cite": {
+        "car": 0.82,
+        "far": 0.21333333333333335
+      },
+      "cascade": {
+        "car": 0.8466666666666667,
+        "far": 0.24
+      },
+      "smart_at_mid": {
+        "car": 0.833,
+        "far": 0.227,
+        "linear_far": 0.227,
+        "better": false
+      }
+    },
+    "Hybrid": {
+      "cite": {
+        "car": 0.8533333333333334,
+        "far": 0.22
+      },
+      "cascade": {
+        "car": 0.8666666666666667,
+        "far": 0.26666666666666666
+      },
+      "smart_at_mid": {
+        "car": 0.86,
+        "far": 0.247,
+        "linear_far": 0.243,
+        "better": false
+      }
+    }
+  },
+  "crossover": {
+    "gamma=0.0": {
+      "util": {
+        "cite": 0.208,
+        "explicit": 0.135,
+        "naive": 0.06,
+        "cascade": 0.195
+      },
+      "best": "cite"
+    },
+    "gamma=0.1": {
+      "util": {
+        "cite": 0.196,
+        "explicit": 0.121,
+        "naive": 0.048,
+        "cascade": 0.184
+      },
+      "best": "cite"
+    },
+    "gamma=0.25": {
+      "util": {
+        "cite": 0.179,
+        "explicit": 0.099,
+        "naive": 0.03,
+        "cascade": 0.167
+      },
+      "best": "cite"
+    },
+    "gamma=0.5": {
+      "util": {
+        "cite": 0.15,
+        "explicit": 0.064,
+        "naive": 0.0,
+        "cascade": 0.14
+      },
+      "best": "cite"
+    },
+    "gamma=1.0": {
+      "util": {
+        "cite": 0.091,
+        "explicit": -0.008,
+        "naive": -0.06,
+        "cascade": 0.085
+      },
+      "best": "cite"
+    },
+    "gamma=2.0": {
+      "util": {
+        "cite": -0.025,
+        "explicit": -0.151,
+        "naive": -0.18,
+        "cascade": -0.025
+      },
+      "best": "cite"
+    }
+  },
+  "item1_decision": {
+    "smart_wins": 0,
+    "keep_smart": false
+  },
+  "ci_beta1_gamma1": {
+    "cite": {
+      "retriever": "BM25",
+      "util": 0.091,
+      "util_ci": [
+        0.016,
+        0.169
+      ]
+    },
+    "explicit": {
+      "retriever": "BM25",
+      "util": -0.008,
+      "util_ci": [
+        -0.078,
+        0.057
+      ]
+    },
+    "naive": {
+      "retriever": "BM25",
+      "util": -0.06,
+      "util_ci": [
+        -0.125,
+        0.004
+      ]
+    },
+    "cascade": {
+      "retriever": "BM25",
+      "util": 0.085,
+      "util_ci": [
+        0.009,
+        0.164
+      ]
+    }
+  }
+}

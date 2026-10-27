@@ -1,0 +1,92 @@
+{
+  "BM25": {
+    "answerable": {
+      "answered": 115,
+      "model_declined": 35,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 150
+    },
+    "unanswerable": {
+      "answered": 24,
+      "model_declined": 126,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 150
+    },
+    "all_outputs": {
+      "coverage": 0.7666666666666667,
+      "far": 0.16
+    },
+    "valid_decisions_only": {
+      "coverage": 0.7666666666666667,
+      "far": 0.16,
+      "n_answerable": 150,
+      "n_unanswerable": 150
+    }
+  },
+  "Dense": {
+    "answerable": {
+      "answered": 123,
+      "model_declined": 27,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 150
+    },
+    "unanswerable": {
+      "answered": 32,
+      "model_declined": 118,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 150
+    },
+    "all_outputs": {
+      "coverage": 0.82,
+      "far": 0.21333333333333335
+    },
+    "valid_decisions_only": {
+      "coverage": 0.82,
+      "far": 0.21333333333333335,
+      "n_answerable": 150,
+      "n_unanswerable": 150
+    }
+  },
+  "Hybrid": {
+    "answerable": {
+      "answered": 128,
+      "model_declined": 22,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 150
+    },
+    "unanswerable": {
+      "answered": 33,
+      "model_declined": 117,
+      "quote_unverified": 0,
+      "format_failure": 0,
+      "format_failure_suspected": 0,
+      "n": 150
+    },
+    "all_outputs": {
+      "coverage": 0.8533333333333334,
+      "far": 0.22
+    },
+    "valid_decisions_only": {
+      "coverage": 0.8533333333333334,
+      "far": 0.22,
+      "n_answerable": 150,
+      "n_unanswerable": 150
+    }
+  },
+  "finish_reason": {
+    "STOP": 900
+  },
+  "parse_status": {
+    "ok": 900
+  }
+}

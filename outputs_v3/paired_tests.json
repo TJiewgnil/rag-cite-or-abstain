@@ -1,0 +1,332 @@
+{
+  "f1_mode": "squad",
+  "bootstrap": 2000,
+  "pairs": {
+    "BM25|cite vs BM25|explicit": {
+      "fa_only_A": 9,
+      "fa_only_B": 4,
+      "mcnemar_p": 0.266845703125,
+      "d_far": 0.033,
+      "d_far_ci": [
+        -0.014,
+        0.078
+      ],
+      "d_coverage": 0.053,
+      "d_coverage_ci": [
+        0.013,
+        0.099
+      ],
+      "d_f1_all": 0.179,
+      "d_f1_all_ci": [
+        0.126,
+        0.233
+      ],
+      "d_u_rel": 0.056,
+      "d_u_rel_ci": [
+        -0.0,
+        0.11
+      ]
+    },
+    "BM25|cite vs BM25|naive": {
+      "fa_only_A": 5,
+      "fa_only_B": 14,
+      "mcnemar_p": 0.063568115234375,
+      "d_far": -0.06,
+      "d_far_ci": [
+        -0.12,
+        -0.007
+      ],
+      "d_coverage": 0.007,
+      "d_coverage_ci": [
+        -0.034,
+        0.049
+      ],
+      "d_f1_all": 0.236,
+      "d_f1_all_ci": [
+        0.18,
+        0.289
+      ],
+      "d_u_rel": 0.178,
+      "d_u_rel_ci": [
+        0.119,
+        0.242
+      ]
+    },
+    "BM25|explicit vs BM25|naive": {
+      "fa_only_A": 0,
+      "fa_only_B": 14,
+      "mcnemar_p": 0.0001220703125,
+      "d_far": -0.093,
+      "d_far_ci": [
+        -0.144,
+        -0.048
+      ],
+      "d_coverage": -0.047,
+      "d_coverage_ci": [
+        -0.083,
+        -0.015
+      ],
+      "d_f1_all": 0.057,
+      "d_f1_all_ci": [
+        -0.001,
+        0.115
+      ],
+      "d_u_rel": 0.122,
+      "d_u_rel_ci": [
+        0.067,
+        0.179
+      ]
+    },
+    "Dense|cite vs Dense|explicit": {
+      "fa_only_A": 16,
+      "fa_only_B": 4,
+      "mcnemar_p": 0.01181793212890625,
+      "d_far": 0.08,
+      "d_far_ci": [
+        0.025,
+        0.138
+      ],
+      "d_coverage": 0.047,
+      "d_coverage_ci": [
+        0.0,
+        0.098
+      ],
+      "d_f1_all": 0.205,
+      "d_f1_all_ci": [
+        0.145,
+        0.261
+      ],
+      "d_u_rel": 0.022,
+      "d_u_rel_ci": [
+        -0.049,
+        0.086
+      ]
+    },
+    "Dense|cite vs Dense|naive": {
+      "fa_only_A": 6,
+      "fa_only_B": 9,
+      "mcnemar_p": 0.60723876953125,
+      "d_far": -0.02,
+      "d_far_ci": [
+        -0.071,
+        0.028
+      ],
+      "d_coverage": -0.047,
+      "d_coverage_ci": [
+        -0.092,
+        -0.007
+      ],
+      "d_f1_all": 0.272,
+      "d_f1_all_ci": [
+        0.215,
+        0.332
+      ],
+      "d_u_rel": 0.156,
+      "d_u_rel_ci": [
+        0.096,
+        0.214
+      ]
+    },
+    "Dense|explicit vs Dense|naive": {
+      "fa_only_A": 1,
+      "fa_only_B": 16,
+      "mcnemar_p": 0.000274658203125,
+      "d_far": -0.1,
+      "d_far_ci": [
+        -0.154,
+        -0.052
+      ],
+      "d_coverage": -0.093,
+      "d_coverage_ci": [
+        -0.143,
+        -0.049
+      ],
+      "d_f1_all": 0.067,
+      "d_f1_all_ci": [
+        0.016,
+        0.124
+      ],
+      "d_u_rel": 0.133,
+      "d_u_rel_ci": [
+        0.079,
+        0.199
+      ]
+    },
+    "Hybrid|cite vs Hybrid|explicit": {
+      "fa_only_A": 15,
+      "fa_only_B": 7,
+      "mcnemar_p": 0.13380050659179688,
+      "d_far": 0.053,
+      "d_far_ci": [
+        -0.007,
+        0.118
+      ],
+      "d_coverage": 0.047,
+      "d_coverage_ci": [
+        0.007,
+        0.09
+      ],
+      "d_f1_all": 0.192,
+      "d_f1_all_ci": [
+        0.132,
+        0.255
+      ],
+      "d_u_rel": 0.043,
+      "d_u_rel_ci": [
+        -0.027,
+        0.113
+      ]
+    },
+    "Hybrid|cite vs Hybrid|naive": {
+      "fa_only_A": 9,
+      "fa_only_B": 12,
+      "mcnemar_p": 0.6636238098144531,
+      "d_far": -0.02,
+      "d_far_ci": [
+        -0.08,
+        0.039
+      ],
+      "d_coverage": -0.02,
+      "d_coverage_ci": [
+        -0.051,
+        0.007
+      ],
+      "d_f1_all": 0.27,
+      "d_f1_all_ci": [
+        0.215,
+        0.331
+      ],
+      "d_u_rel": 0.155,
+      "d_u_rel_ci": [
+        0.088,
+        0.222
+      ]
+    },
+    "Hybrid|explicit vs Hybrid|naive": {
+      "fa_only_A": 2,
+      "fa_only_B": 13,
+      "mcnemar_p": 0.00738525390625,
+      "d_far": -0.073,
+      "d_far_ci": [
+        -0.123,
+        -0.028
+      ],
+      "d_coverage": -0.067,
+      "d_coverage_ci": [
+        -0.11,
+        -0.028
+      ],
+      "d_f1_all": 0.079,
+      "d_f1_all_ci": [
+        0.026,
+        0.132
+      ],
+      "d_u_rel": 0.113,
+      "d_u_rel_ci": [
+        0.061,
+        0.171
+      ]
+    },
+    "BM25|cite vs Dense|cite": {
+      "fa_only_A": 7,
+      "fa_only_B": 15,
+      "mcnemar_p": 0.13380050659179688,
+      "d_far": -0.053,
+      "d_far_ci": [
+        -0.115,
+        0.007
+      ],
+      "d_coverage": -0.053,
+      "d_coverage_ci": [
+        -0.133,
+        0.022
+      ],
+      "d_f1_all": -0.062,
+      "d_f1_all_ci": [
+        -0.125,
+        -0.005
+      ],
+      "d_u_rel": 0.022,
+      "d_u_rel_ci": [
+        -0.045,
+        0.092
+      ]
+    },
+    "BM25|cite vs Hybrid|cite": {
+      "fa_only_A": 4,
+      "fa_only_B": 13,
+      "mcnemar_p": 0.049041748046875,
+      "d_far": -0.06,
+      "d_far_ci": [
+        -0.115,
+        -0.007
+      ],
+      "d_coverage": -0.087,
+      "d_coverage_ci": [
+        -0.147,
+        -0.027
+      ],
+      "d_f1_all": -0.073,
+      "d_f1_all_ci": [
+        -0.123,
+        -0.029
+      ],
+      "d_u_rel": 0.023,
+      "d_u_rel_ci": [
+        -0.038,
+        0.084
+      ]
+    },
+    "Dense|cite vs Hybrid|cite": {
+      "fa_only_A": 7,
+      "fa_only_B": 8,
+      "mcnemar_p": 1.0,
+      "d_far": -0.007,
+      "d_far_ci": [
+        -0.06,
+        0.041
+      ],
+      "d_coverage": -0.033,
+      "d_coverage_ci": [
+        -0.088,
+        0.02
+      ],
+      "d_f1_all": -0.011,
+      "d_f1_all_ci": [
+        -0.058,
+        0.034
+      ],
+      "d_u_rel": 0.001,
+      "d_u_rel_ci": [
+        -0.052,
+        0.058
+      ]
+    }
+  },
+  "crossover": {
+    "BM25": {
+      "gamma_star": 2.0,
+      "ci": [
+        0.333,
+        NaN
+      ],
+      "share_cascade_always_better": 0.009
+    },
+    "Dense": {
+      "gamma_star": 0.75,
+      "ci": [
+        0.0,
+        6.0
+      ],
+      "share_cascade_always_better": 0.116
+    },
+    "Hybrid": {
+      "gamma_star": 3.125,
+      "ci": [
+        0.45,
+        NaN
+      ],
+      "share_cascade_always_better": 0.003
+    }
+  }
+}
