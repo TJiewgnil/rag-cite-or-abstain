@@ -24,11 +24,8 @@ All code, the 300-question set and the full results of the final run are include
 flowchart LR
   Q["300 SQuAD v2 questions<br/>150 answerable + 150 unanswerable"] --> R["Retriever, top-5<br/>BM25 · Dense · Hybrid"]
   R --> G["gemini-2.5-flash, T = 0<br/>naive · explicit · cite"]
-  G --> P["Parse: answer or abstain"]
-  P --> M["FAR, coverage, F1 / EM"]
-  G --> N["NLI grounding score"]
-  N --> M
-  M --> S["Paired tests, Holm correction<br/>cost crossover λ*"]
+  G --> M["Score each answer<br/>abstain? NLI grounding<br/>FAR · F1 / EM"]
+  M --> S["Paired tests + Holm<br/>cost crossover λ*"]
 ```
 
 Each question goes through all 3 × 3 combinations of retriever and prompt, which gives 2,700 generations. Because every configuration answers the same questions, all comparisons are paired tests on the same items.
