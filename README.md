@@ -21,7 +21,7 @@ All code, the 300-question set and the full results of the final run are include
 ## How it works
 
 ```mermaid
-flowchart LR
+flowchart TB
   Q["300 SQuAD v2 questions<br/>150 answerable + 150 unanswerable"] --> R["Retriever, top-5<br/>BM25 · Dense · Hybrid"]
   R --> G["gemini-2.5-flash, T = 0<br/>naive · explicit · cite"]
   G --> M["Score each answer<br/>abstain? NLI grounding<br/>FAR · F1 / EM"]

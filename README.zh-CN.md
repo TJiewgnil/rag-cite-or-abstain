@@ -21,7 +21,7 @@
 ## 工作原理
 
 ```mermaid
-flowchart LR
+flowchart TB
   Q["300 道 SQuAD v2 题<br/>150 可答 + 150 不可答"] --> R["检索 top-5<br/>BM25 · Dense · Hybrid"]
   R --> G["gemini-2.5-flash，T = 0<br/>三种提示"]
   G --> M["给每条回答打分<br/>是否拒答、NLI 接地<br/>FAR · F1 / EM"]
